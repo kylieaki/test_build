@@ -8,9 +8,14 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <a href="#home" className="font-mono text-xl font-bold text-white">
-            {" "}
-            pedro<span className="text-blue-500">.tech</span>{" "}
+          <a
+            href="https://furstlab.github.io/BioEchemBuilds/" target="_blank" rel="noopener noreferrer"
+            className="font-mono text-xl font-bold text-white "
+          >
+            BioEchem
+            <span className="font-bold mb-3 md:mb-6 bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text text-transparent leading-tight">
+            ⚡Builds
+            </span>
           </a>
 
           <div
@@ -33,21 +38,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               className="text-gray-300 hove:text-white transition-colors"
             >
               {" "}
-              About{" "}
-            </a>
-            <a
-              href="#projects"
-              className="text-gray-300 hove:text-white transition-colors"
-            >
-              {" "}
-              Projects{" "}
-            </a>
-            <a
-              href="#contact"
-              className="text-gray-300 hove:text-white transition-colors"
-            >
-              {" "}
-              Contact{" "}
+              Usage{" "}
             </a>
           </div>
         </div>
