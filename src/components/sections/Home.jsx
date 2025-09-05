@@ -13,7 +13,7 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Description.
+            Supreme leader
           </p>
           <div className="flex justify-center space-x-4">
             <a
